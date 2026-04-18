@@ -13,7 +13,7 @@ public class CreditCard {
     @GeneratedValue
     private Long id;
     private String cardNumber;
-    private Double limit;
+    private Double credit_limit;
     private String cardType;
     private Integer pin;
 }
