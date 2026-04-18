@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: creditcard
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/credit_card_db
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
