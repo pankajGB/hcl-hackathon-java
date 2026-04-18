@@ -1,4 +1,4 @@
-package com.zbank.creditcard;
+package com.zbank.creditcard.dto;
 
 public enum DocumentType {
     ADAHAR_CARD,
